@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="0914b057-c925-4433-b30e-487feb576df7" created="2.5.0" activeEnvironment="Default environment" name="REST Project 2" resourceRoot="" updated="2.5.0 2018-09-14T14:45:07Z" encryptionMode="Not encrypted" savePropertyValues="true" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.ProTestRunnerAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Report Format(s)" value="XML"/>
+  <con:entry key="Host:Port" value=""/>
+  <con:entry key="Export JUnit Results" value="false"/>
+  <con:entry key="Export All" value="false"/>
+  <con:entry key="Save After" value="false"/>
+  <con:entry key="Slack Channel(s)" value=""/>
+  <con:entry key="Add Settings" value="false"/>
+  <con:entry key="WSS Password Type" value=""/>
+  <con:entry key="Endpoint" value=""/>
+  <con:entry key="Test Suite Tags" value=""/>
+  <con:entry key="Select Report Type" value="Data export for automation"/>
+  <con:entry key="System Properties" value=""/>
+  <con:entry key="Test Suite" value="testsuite1"/>
+  <con:entry key="Run in-process" value="false"/>
+  <con:entry key="Password" value=""/>
+  <con:entry key="Print Report" value="true"/>
+  <con:entry key="Open Report" value="false"/>
+  <con:entry key="Test Case Tags" value=""/>
+  <con:entry key="Export JUnit Results with test properties" value="false"/>
+  <con:entry key="Global Properties" value=""/>
+  <con:entry key="Project Properties" value=""/>
+  <con:entry key="Test Case" value="TestCase 3"/>
+  <con:entry key="Slack Access Token" value=""/>
+  <con:entry key="Project Password" value=""/>
+  <con:entry key="Username" value=""/>
+  <con:entry key="user-settings.xml Password" value=""/>
+  <con:entry key="TestRunner Path" value="C:\Program Files\SmartBear\ReadyAPI-2.5.0\bin"/>
+  <con:entry key="Environment" value="Default environment"/>
+  <con:entry key="Coverage Report" value="false"/>
+  <con:entry key="Enable UI" value="false"/>
+  <con:entry key="Root Folder" value="C:\Users\vedgu\Desktop"/>
+  <con:entry key="Ignore Errors" value="false"/>
+  <con:entry key="Domain" value=""/>
+  <con:entry key="Tool Args" value=""/>
+  <con:entry key="Save Project" value="false"/>
+</xml-fragment>]]></con:setting><con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.ProTestRunnerUIAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Report Format(s)" value="XML"/>
+  <con:entry key="Host:Port" value=""/>
+  <con:entry key="Export JUnit Results" value="true"/>
+  <con:entry key="Export All" value="true"/>
+  <con:entry key="Save After" value="false"/>
+  <con:entry key="Slack Channel(s)" value=""/>
+  <con:entry key="Add Settings" value="false"/>
+  <con:entry key="WSS Password Type" value=""/>
+  <con:entry key="Endpoint" value=""/>
+  <con:entry key="Test Suite Tags" value=""/>
+  <con:entry key="Select Report Type" value="JUnit-Style report for automation"/>
+  <con:entry key="System Properties" value=""/>
+  <con:entry key="Test Suite" value="testsuite1"/>
+  <con:entry key="Run in-process" value="false"/>
+  <con:entry key="Password" value=""/>
+  <con:entry key="Print Report" value="true"/>
+  <con:entry key="Open Report" value="false"/>
+  <con:entry key="Test Case Tags" value=""/>
+  <con:entry key="Export JUnit Results with test properties" value="false"/>
+  <con:entry key="Global Properties" value=""/>
+  <con:entry key="Project Properties" value=""/>
+  <con:entry key="Test Case" value="TestCase 3"/>
+  <con:entry key="Slack Access Token" value=""/>
+  <con:entry key="Project Password" value=""/>
+  <con:entry key="Username" value=""/>
+  <con:entry key="user-settings.xml Password" value=""/>
+  <con:entry key="TestRunner Path" value="C:\Program Files\SmartBear\ReadyAPI-2.5.0\bin"/>
+  <con:entry key="Environment" value="Default environment"/>
+  <con:entry key="Coverage Report" value="false"/>
+  <con:entry key="Enable UI" value="false"/>
+  <con:entry key="Root Folder" value="${WORKSPACE}"/>
+  <con:entry key="Ignore Errors" value="false"/>
+  <con:entry key="Domain" value=""/>
+  <con:entry key="Tool Args" value=""/>
+  <con:entry key="Save Project" value="false"/>
+</xml-fragment>]]></con:setting></con:settings><con:interface xsi:type="con:RestService" id="a7d190ca-bc76-41b2-a177-f0f038b73411" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://restcountries.eu" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>https://restcountries.eu</con:endpoint></con:endpoints><con:resource name="Co" path="/rest/v2/alpha/co" id="6b6571bd-dc26-4575-927d-27973828a64c"><con:settings/><con:parameters/><con:method name="Co" id="ba3bf6cf-deaf-4c92-8c7d-a6e2a03eeb1c" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json;charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:co="https://restcountries.eu/rest/v2/alpha/co">co:Response</con:element></con:representation><con:request name="Request 1" id="9bfdd29b-68a2-41ec-9779-bb538eeba18c" mediaType="application/json"><con:settings/><con:endpoint>https://restcountries.eu</con:endpoint><con:request/><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="5f40f315-1a28-4666-94c8-3c52d145c629" wadlVersion="http://wadl.dev.java.net/2009/02" name="REST Service 1" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints/><con:resource name="/rest/v2/alpha" path="/rest/v2/alpha" id="b8bfad3c-8adf-4ef7-a736-ccfef8ba3df7"><con:settings/><con:parameters/><con:method name="GET" id="a99d97cc-500e-4f30-ac47-851cd18b74a4" method="GET"><con:settings/><con:parameters><con:parameter required="true"><con:name>codes</con:name><con:value>col;</con:value><con:style>QUERY</con:style><con:default>col;</con:default></con:parameter></con:parameters><con:representation type="RESPONSE"><con:mediaType>application/json;charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element>Response</con:element></con:representation><con:request name="GET Request" id="61f14fb6-bd20-4afa-aeb6-dad8438edf99" mediaType="application/json"><con:settings/><con:endpoint>https://restcountries.eu</con:endpoint><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:parameters/></con:request></con:method></con:resource></con:interface><con:testSuite id="76e41517-898e-46fa-ab59-c46c18d4f292" name="testsuite1"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:runType>SEQUENTIAL</con:runType><con:testCase id="500c35ad-4587-497c-bb09-bed000d715b0" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="TestCase 1" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Groovy Script" id="41651325-a2dd-470a-91b1-f3937ea83e13"><con:settings/><con:config><script>def var1= testRunner.testCase.testSuite.getPropertyValue("Name")
+log.info("Property Name"+ var1)
+def var2= testRunner.testCase.getTestStepByName("Properties").getPropertyValue("Name")
+log.info("TestCase property"+ var2);
+ </script></con:config></con:testStep><con:testStep type="properties" name="Properties2" id="9ca16dd6-abf2-481e-bebb-2b534f30371c"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>Name</con:name></con:property></con:properties></con:config></con:testStep><con:testStep type="groovy" name="RunTestSuite" id="0b01ae4d-f1b3-4797-b122-d157677cd757"><con:settings/><con:config><script>def testsuite=testRunner.getTestCase().getTestSuite().getProject().getWorkspace().getProjectByName("REST Project 1").getTestSuiteByName("Testsuite1")
+log.info( testsuite)
+testsuite.run(null , true)
+ 
+
+ </script></con:config></con:testStep><con:testStep type="groovy" name="Groovy Script 2" id="aa1291de-3e6b-47cb-bddf-97f251e885e4"><con:settings/><con:config><script>def  var1= context.expand('${#Project#Name}')
+log .info("Property Name=" +var1);
+def  var2= context.expand('${#TestSuite#Name}')
+log .info("Property Name=" +var2);</script></con:config></con:testStep><con:testStep type="properties" name="Properties" id="534d681c-715f-4e6e-ba9d-ed96d5914da2"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>Name</con:name><con:value>This is a teststep property</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="restrequest" name="Request 1" id="122b8b46-0703-4917-9ee8-b65bbb0418f1"><con:settings/><con:config service="https://restcountries.eu" resourcePath="/rest/v2/alpha/co" methodName="Co" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Request 1" id="9bfdd29b-68a2-41ec-9779-bb538eeba18c" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://restcountries.eu</con:endpoint><con:request/><con:originalUri>https://restcountries.eu/rest/v2/alpha/co</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="e2fc189f-4664-47a6-a5c1-fc571247d71b" name="Valid HTTP Status Codes"><con:settings/><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="Simple Contains" id="40bb3326-f43a-4997-ad79-55f9e3d79589" name="Contains"><con:configuration><token>CO</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Sensitive Information Exposure" id="7973c928-5e33-4460-b465-acf17e37ae7f" name="Sensitive Information Exposure"><con:configuration><AssertionSpecificExposureList>~(?s).*Runtime (E|e)rror.*###[Stacktrace] Can give hackers information about which software or language you are using</AssertionSpecificExposureList><AssertionSpecificExposureList>~(?s).*SQLSTATE: [A-Z0-9].*###[Database error messages] Internal database information can be misused by hackers</AssertionSpecificExposureList><AssertionSpecificExposureList>~(?s).*(s|S)tack:.*###[Stacktrace] Can give hackers information about which software or language you are using</AssertionSpecificExposureList><AssertionSpecificExposureList>~(?s).*(s|S)yntax (e|E)rror\s.*###[Stacktrace] Can give hackers information about which software or language you are using</AssertionSpecificExposureList><AssertionSpecificExposureList>~(?s).*\w+/\d{1,2}(\.\d{1,3})+.*###[Version x.y.z] Exposing version numbers gives
+            unnecessary hints on your systems vulnerabilities</AssertionSpecificExposureList><AssertionSpecificExposureList>~(?s).*Invalid column name\s.*###[Database error messages] Internal database information can be misused by hackers</AssertionSpecificExposureList><AssertionSpecificExposureList>~(?s).*
+            (ORA|EXP|IMP|KUP|UDE|UDI|DBV|LCD|QSM|OCI|RMAN|LFI|PLS|PLQ|AMD|CLSR|PROC|PROT|TNS|NNC|NLP|NNF|NMP|NCR|NZE|O2F|O2I|O2U|PCB|PCC|SQL|AUD|IMG|VID|DRG|LPX|LSX)-\d{5}\s
+        .*###[Database error messages] Internal database information can be misused by hackers</AssertionSpecificExposureList><AssertionSpecificExposureList>~(?s).*(p|P)owered by:? ([a-zA-Z]+)( [a-zA-Z]+){0,3}( |/)\d\.\d{1,2}\.\d{1,3}.*###[Version x.y.z] Exposing version numbers gives
+            unnecessary hints on your systems vulnerabilities</AssertionSpecificExposureList><AssertionSpecificExposureList>~(?s).*at [\w\$]+(\.[\w\$&lt;>\[\],]+|\.\.ctor)+(\((([\w\$&lt;>\`\[\]]+ [\w\$&lt;>]+, )*(([\w\$&lt;>\`\[\]]+
+            [\w\$&lt;>]+)))\)|\(\))
+        .*###[Stacktrace] Can give hackers information about which software or language you are using</AssertionSpecificExposureList><AssertionSpecificExposureList>~(?s).*&lt;\w+:frame\s*class=".*"\s*line=".*"\s*method=".*"\s*/>.*###[Stacktrace] Can give hackers information about which software or language you are using</AssertionSpecificExposureList><AssertionSpecificExposureList>~(?s).*Traceback \(most recent call last\):.*###[Stacktrace] Can give hackers information about which software or language you are using</AssertionSpecificExposureList><AssertionSpecificExposureList>~(?s).*((I|i)ncorrect|(I|i)nvalid) (s|S)yntax.*###[Stacktrace] Can give hackers information about which software or language you are using</AssertionSpecificExposureList><AssertionSpecificExposureList>~(?s).*(s|S)tack ?(t|T)race.*###[Stacktrace] Can give hackers information about which software or language you are using</AssertionSpecificExposureList><AssertionSpecificExposureList>~(?s).*(e|E)rror was:\s.*###[Database error messages] Internal database information can be misused by hackers</AssertionSpecificExposureList><AssertionSpecificExposureList>~(?s).*(v|V)ersion:? \d\.\d{1,2}\.{1,3}-?.*###[Version x.y.z] Exposing version numbers gives
+            unnecessary hints on your systems vulnerabilities</AssertionSpecificExposureList><AssertionSpecificExposureList>~(?s).*from [\w\$]+(\.[\w\$&lt;>]+)+:\d+:in `.+'.*###[Stacktrace] Can give hackers information about which software or language you are using</AssertionSpecificExposureList><AssertionSpecificExposureList>~(?s).*Error in process &lt;\d+\.\d+\.\d+> with exit value:.*###[Stacktrace] Can give hackers information about which software or language you are using</AssertionSpecificExposureList><AssertionSpecificExposureList>~(?s).*STACK\s?TRACE.*###[Stacktrace] Can give hackers information about which software or language you are using</AssertionSpecificExposureList><AssertionSpecificExposureList>~(?s).*Warning: [\w]+\(\) .+ in .+ on line \d{1,6}.*###[Stacktrace] Can give hackers information about which software or language you are using</AssertionSpecificExposureList><AssertionSpecificExposureList>~(?s).*((A|a)pache|vBulletin|MySQL|PostgreSQL|phpBB|Internet Information Services)( |/)\d{1,2}(\.\d{1,3})+
+        .*###[Version x.y.z] Exposing version numbers gives
+            unnecessary hints on your systems vulnerabilities</AssertionSpecificExposureList><AssertionSpecificExposureList>~(?s).*at [a-zA-Z][\w\$]*(\.[a-zA-Z][\w\$]*)+\((Unknown Source|Native
+            Method|[a-zA-Z][\w\$]*\.([a-zA-Z]{3,5}):\d+)\)
+        .*###[Stacktrace] Can give hackers information about which software or language you are using</AssertionSpecificExposureList><AssertionSpecificExposureList>~(?s).*[^\s]+\.rb:\d+:in `.+'.*###[Stacktrace] Can give hackers information about which software or language you are using</AssertionSpecificExposureList><AssertionSpecificExposureList>~(?s).*File ".+", line [0-9]{1,6}, in.*###[Stacktrace] Can give hackers information about which software or language you are using</AssertionSpecificExposureList><IncludeProjectSpecific>true</IncludeProjectSpecific><IncludeGlobal>false</IncludeGlobal></con:configuration></con:assertion><con:assertion type="Invalid HTTP Status Codes" id="8dbe79a1-6536-4699-9ef2-a12129d99bc0" name="Invalid HTTP Status Codes"><con:configuration><codes>401</codes></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Helloclass" id="b2bb9a74-051b-4e54-88f2-f4b3dc085605"><con:settings/><con:config><script>class Hello{
+	def log;
+	def context;
+	def testRunner;
+	def Hello(log,context,testRunner) {
+		this.log=log;
+		this.context=context;
+		this.testRunner=testRunner;
+		
+	}
+	def SayHello(String Name )
+	{
+		log.info("Hello"  + " "  +Name + "    how R u ?");
+	}
+}
+
+ context.setProperty("Hello", new Hello(log,context,testRunner ))
+ </script></con:config></con:testStep><con:testStep type="groovy" name="call HelloClass" id="870516e1-9f38-4dee-aadd-5259b0cc7e63"><con:settings/><con:config><script>def teststep=testRunner.testCase.getTestStepByName("Helloclass");
+teststep.run(testRunner,context );
+context.Hello.SayHello("sandhya");</script></con:config></con:testStep><con:setupScript>log.info("This is setup script stored at Desktop")</con:setupScript><con:tearDownScript>log.info("welcome to TearDown Script stored on Desktop")</con:tearDownScript><con:properties><con:property><con:name>Name</con:name><con:value>This is a TestCase Property</con:value></con:property></con:properties><con:reportParameters/><con:breakPoints><con:testStepId>9ca16dd6-abf2-481e-bebb-2b534f30371c</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:testCase id="dbd5027f-7772-47a6-a732-0c1d14c957b1" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="TestCase 2" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="callHello" id="5767797c-c33e-43b1-bdd0-5e8b99420005"><con:settings/><con:config><script>def project=testRunner.testCase.testSuite.project;
+def testSuite=project.getTestSuiteByName("testsuite1").getTestCaseByName("TestCase 1");
+def teststep=testSuite.getTestStepByName("Helloclass");
+teststep.run(testRunner,context)
+context.Hello.SayHello("Satheesh");</script></con:config></con:testStep><con:setupScript>log.info("This is setup script stored at Desktop")</con:setupScript><con:tearDownScript>log.info("welcome to TearDown Script stored on Desktop")</con:tearDownScript><con:properties/><con:reportParameters/></con:testCase><con:testCase id="868bca74-e52e-498c-9080-13310c2e0aaa" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="TestCase 3" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="GScript" id="4ba741e4-4d9c-4ee3-8831-44ddbc0651d9"><con:settings/><con:config><script> def status=testRunner.runTestStepByName("CountryCodes");
+ log.info("Status="+status.getStatus());
+def testcases= testRunner.testCase.testSuite.getTestCaseList()
+testcases.forEach{
+  log.info(">>>>>"+it.name)
+  }</script></con:config></con:testStep><con:testStep type="restrequest" name="CountryCodes" id="f7778131-ddb2-4ef0-9a4a-141fa982b8f3"><con:settings/><con:config service="REST Service 1" resourcePath="/rest/v2/alpha" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="CountryCodes" id="61f14fb6-bd20-4afa-aeb6-dad8438edf99" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://restcountries.eu</con:endpoint><con:request/><con:originalUri>https://restcountries.eu/rest/v2/alpha</con:originalUri><con:assertion type="Simple Contains" id="3cf28745-ccb2-4f4e-a4a4-8c6286a5561d" name="Contains"><con:configuration><token>Colombia</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:restRequest></con:config></con:testStep><con:setupScript>log.info("This is setup script stored at Desktop")</con:setupScript><con:tearDownScript>log.info("welcome to TearDown Script stored on Desktop")</con:tearDownScript><con:properties/><con:reportParameters/></con:testCase><con:properties><con:property><con:name>Name</con:name><con:value>This is a Testsuite Property</con:value></con:property></con:properties><con:setupScript> def var1= testRunner.testCase.testSuite.getPropertyValue("Name")
+log.info("Property Name"+ var1)</con:setupScript><con:reportParameters/></con:testSuite><con:savedRecentRuns>1</con:savedRecentRuns><con:requirements/><con:properties><con:property><con:name>Name</con:name><con:value>This is a Project property</con:value></con:property></con:properties><con:afterLoadScript>def file1=new File("C:/Users/vedgu/Desktop/setup.txt").text
+ 
+def file2=new File ("C:/Users/vedgu/Desktop/Teardown.txt").text
+project.getTestSuiteList().each { 	testSuite ->
+	testSuite.getTestCaseList().each { testCase ->
+	   testCase.setSetupScript( file1);
+	   testCase.setTearDownScript(file2);
+	}
+}</con:afterLoadScript><con:wssContainer/><con:databaseConnectionContainer/><con:jmsConnectionContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:reporting><con:xmlTemplates/><con:parameters/></con:reporting><con:beforeRunScript> </con:beforeRunScript><con:afterRunScript> </con:afterRunScript><con:eventHandlers type="RequestFilter.filterRequest" name="RequestFilter.filterRequest"><con:script>// Sample event script to add custom HTTP header to all outgoing REST, SOAP and HTTP(S) calls
+// This code is often used for adding custom authentication to SoapUI Pro tests
+
+// If hardcoding the token, uncomment and change line 5
+// def token = '4567'
+
+// If your token is parameterized in Project level custom property, uncomment line 8
+// def token = request.parent.testCase.testSuite.project.getProperty('auth_token').getValue()
+
+// To modify all outgoing calls, remove comments from lines 11 to 16
+// def headers = request.requestHeaders
+// if (headers.containsKey('auth_token2') == false) {
+//   headers.put('auth_token2', token)
+//   request.requestHeaders = headers
+// }</con:script></con:eventHandlers><con:eventHandlers type="TestRunListener.afterStep" name="TestRunListener.afterStep"><con:script>// Save all test step results into files
+// Change the directory path in line 5 to a location where you want to store details
+// then uncomment lines 5 to 10
+
+// filePath = 'C:\\tempOutputDirectory\\'
+// fos = new FileOutputStream(filePath + testStepResult.testStep.label + '.txt', true)
+// pw = new PrintWriter(fos)
+// testStepResult.writeTo(pw)
+// pw.close()
+// fos.close()</con:script></con:eventHandlers><con:authRepository/><con:tags/></con:soapui-project>
